@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"   >
+
+
+    <TextView
+        android:id="@+id/textfaq"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="FAQ" />
+
+    <TextView
+        android:id="@+id/textQue1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/que1"
+        android:textSize="17dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/textAns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ans1"
+        android:textSize="17dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/textQue2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/que2"
+        android:textSize="17dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/textAns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ans2"
+        android:textSize="17dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/textQue3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/que3"
+        android:textSize="17dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/textAns3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ans3"  android:textSize="17dp"
+         android:textColor="@android:color/holo_blue_dark"
+        />
+</LinearLayout>
