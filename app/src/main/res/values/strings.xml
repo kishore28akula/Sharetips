@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Sharetips</string>
 
+
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
@@ -23,8 +24,26 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <!--menu swipe information-->
+<!--    menu swipe information-->
+    <!--<string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>-->
+
+=======
+    <string name="title_activity_main">MainActivity</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="action_settings">Settings</string>
+
+    <!--
+    Faqs string questions and Answers-->
+
+    <string name="que1">Do you Give Free Trial of Your Stock tips services ?</string>
+    <string name="ans1">Yes, We give two days free trial of our Stock tips services. You can trade in this free trial and Earn Money.</string>
+    <string name="que2"> What is Accuracy of your Stock Tips Services ?</string>
+    <string name="ans2">Our Accuracy of our Share tips services is up to 80 to 85%.</string>
+    <string name="que3">Do We have to Trade in your all calls ?</string>
+    <string name="ans3">Yes, We recommend you to trade in our all calls, if you want to earn the profit that we show on the website. Still if you want to trade in the calls that you like, you can trade the same.</string>
+>>>>>>> Stashed changes
 </resources>
