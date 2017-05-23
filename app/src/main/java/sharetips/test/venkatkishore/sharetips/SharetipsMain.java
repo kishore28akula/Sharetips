@@ -117,10 +117,6 @@ public class SharetipsMain extends AppCompatActivity implements
         else if (id == R.id.nav_manage) {
 
             logoutUser();
-//        } else if (id == R.id.nav_share) {
-//
-//        } else if (id == R.id.nav_send) {
-////            startActivity(new Intent(TabInfoActivity.this,Locationdistanceinfo.class));
         }
         else if (id == R.id.disclamer) {
 
