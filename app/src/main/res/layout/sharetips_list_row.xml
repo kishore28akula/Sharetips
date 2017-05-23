@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:text="Script"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtscript"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Entrytime"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtentrytime"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Exittime"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtexittime"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Longshort"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtlongshort"
+        android:gravity="left"
+        android:textSize="10dp"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Entryprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtentryprice"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Exitprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtexitprice"
+        android:gravity="left"
+        android:textSize="10dp"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Loss/gain"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtlossgain"
+        android:gravity="left"
+        android:textSize="10dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

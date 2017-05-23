@@ -51,6 +51,12 @@ public class SharetipsMain extends AppCompatActivity implements
 //dd
         if (id == R.id.nav_home) {
 //
+
+
+            // Handle the camera action
+        } else if (id == R.id.nav_gallery) {
+//            startActivity(new Intent(TabInfoActivity.this,Tabdetails.class));
+
             ShareHomeFragment msgfragment = new ShareHomeFragment();
             FragmentManager msgmanger = getSupportFragmentManager();
             msgmanger
@@ -59,23 +65,6 @@ public class SharetipsMain extends AppCompatActivity implements
                     .replace(R.id.relativelayout1,
                             msgfragment,
                             msgfragment.getTag()).commit();
-
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-//            startActivity(new Intent(TabInfoActivity.this,Tabdetails.class));
-
-
-
-//            MainGalleryFragment msgfragment = new MainGalleryFragment();
-//            FragmentManager msgmanger = getSupportFragmentManager();
-//            msgmanger
-//                    .beginTransaction()
-//                    .setCustomAnimations(R.anim.push_left_in, R.anim.push_left_in)
-//                    .replace(R.id.relativelayout1,
-//                            msgfragment,
-//                            msgfragment.getTag()).commit();
-//
-
         } else if (id == R.id.nav_slideshow) {
 
 //            OmshakthiParallax parallaxfragment = new OmshakthiParallax();

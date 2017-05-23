@@ -24,11 +24,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-<!--    menu swipe information-->
+    <!--    menu swipe information-->
     <!--<string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>-->
 
-=======
+    =======
     <string name="title_activity_main">MainActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -45,5 +45,5 @@
     <string name="ans2">Our Accuracy of our Share tips services is up to 80 to 85%.</string>
     <string name="que3">Do We have to Trade in your all calls ?</string>
     <string name="ans3">Yes, We recommend you to trade in our all calls, if you want to earn the profit that we show on the website. Still if you want to trade in the calls that you like, you can trade the same.</string>
->>>>>>> Stashed changes
+    >>>>>>> Stashed changes
 </resources>

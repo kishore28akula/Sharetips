@@ -22,11 +22,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".LoginPageInfo" />
         <activity android:name=".Register" />
-        <activity android:name=".SharetipsMain"
+        <activity
+            android:name=".SharetipsMain"
             android:label="@string/title_activity_share_main_page_info"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".PastPermance"></activity>
     </application>
 
 </manifest>
