@@ -8,7 +8,8 @@ import android.widget.Button;
 
 public class LoginPageInfo extends AppCompatActivity {
 
-    Button btn_login;
+    Button btn_login,ggg;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

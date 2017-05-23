@@ -33,7 +33,6 @@ public class SharePageDetails extends AppCompatActivity implements View.OnClickL
     private static final float MIN_SCALE = 0.85f;
     private static final float MIN_ALPHA = 0.5f;
     int noofsize = 4;
-    //    ViewPager myPager = null;
     int count = 0;
     Timer timer;
     private Button btnSkip, btnNext;

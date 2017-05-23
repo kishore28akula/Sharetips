@@ -68,7 +68,6 @@ public class Register extends AppCompatActivity {
                 // Get a reference for the custom view close button
                 ImageButton closeButton = (ImageButton) customView.findViewById(R.id.ib_close);
 
-                // Set a click listener for the popup window close button
                 closeButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
