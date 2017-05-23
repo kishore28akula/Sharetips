@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Sharetips</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="title_activity_share_main_page_info">Sharetips</string>
+    <!-- view page details-->
+    <string name="slide_1_title">Share Page one</string>
+    <string name="slide_1_desc">Sample Text..coming soon..</string>
+
+    <string name="slide_2_title">Share Page two </string>
+    <string name="slide_2_desc">Sample Text..coming soon...</string>
+
+    <string name="slide_3_title">Share Page three </string>
+    <string name="slide_3_desc">Sample Text..coming soon..</string>
+
+    <string name="slide_4_title">Share Page four </string>
+    <string name="slide_4_desc">Sample Text..coming soon..</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--menu swipe information-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 </resources>
