@@ -12,11 +12,13 @@
         android:text="Demo"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:layout_weight=".7"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Watch Video"
+        android:background="@android:color/holo_red_light"/>
 </LinearLayout>

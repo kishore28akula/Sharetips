@@ -7,17 +7,34 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/today"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Map" />
+            android:title="Today's Call" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/past"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Sample" />
+            android:title="Past Performance" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/account"
             android:icon="@android:drawable/ic_lock_power_off"
-            android:title="Logout" />
+            android:title="Account" />
+        <item
+            android:id="@+id/price"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Pricing and Services" />
+        <item
+            android:id="@+id/offers"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Offers" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Contact Us/Help" />
+        <item
+            android:id="@+id/disclamer"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Disclamer" />
+
     </group>
 <!--
     <item android:title="Communicate">

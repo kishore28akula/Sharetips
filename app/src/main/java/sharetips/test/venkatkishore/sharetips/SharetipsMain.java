@@ -1,5 +1,6 @@
 package sharetips.test.venkatkishore.sharetips;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
@@ -51,12 +52,6 @@ public class SharetipsMain extends AppCompatActivity implements
 //dd
         if (id == R.id.nav_home) {
 //
-
-
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-//            startActivity(new Intent(TabInfoActivity.this,Tabdetails.class));
-
             ShareHomeFragment msgfragment = new ShareHomeFragment();
             FragmentManager msgmanger = getSupportFragmentManager();
             msgmanger
@@ -65,7 +60,17 @@ public class SharetipsMain extends AppCompatActivity implements
                     .replace(R.id.relativelayout1,
                             msgfragment,
                             msgfragment.getTag()).commit();
-        } else if (id == R.id.nav_slideshow) {
+
+            // Handle the camera action
+        } else if (id == R.id.today) {
+//            startActivity(new Intent(TabInfoActivity.this,Tabdetails.class));
+
+
+
+
+
+
+        } else if (id == R.id.past) {
 
 //            OmshakthiParallax parallaxfragment = new OmshakthiParallax();
 //            FragmentManager msgmanger = getSupportFragmentManager();
@@ -78,7 +83,7 @@ public class SharetipsMain extends AppCompatActivity implements
 
 
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.account) {
 
             logoutUser();
 //        } else if (id == R.id.nav_share) {
@@ -86,6 +91,48 @@ public class SharetipsMain extends AppCompatActivity implements
 //        } else if (id == R.id.nav_send) {
 ////            startActivity(new Intent(TabInfoActivity.this,Locationdistanceinfo.class));
         }
+        else if (id == R.id.price) {
+
+            logoutUser();
+//        } else if (id == R.id.nav_share) {
+//
+//        } else if (id == R.id.nav_send) {
+////            startActivity(new Intent(TabInfoActivity.this,Locationdistanceinfo.class));
+        }
+        else if (id == R.id.offers) {
+
+            logoutUser();
+//        } else if (id == R.id.nav_share) {
+//
+//        } else if (id == R.id.nav_send) {
+////            startActivity(new Intent(TabInfoActivity.this,Locationdistanceinfo.class));
+        }else if (id == R.id.contact) {
+
+            logoutUser();
+//        } else if (id == R.id.nav_share) {
+//
+//        } else if (id == R.id.nav_send) {
+////            startActivity(new Intent(TabInfoActivity.this,Locationdistanceinfo.class));
+        }
+        else if (id == R.id.nav_manage) {
+
+            logoutUser();
+//        } else if (id == R.id.nav_share) {
+//
+//        } else if (id == R.id.nav_send) {
+////            startActivity(new Intent(TabInfoActivity.this,Locationdistanceinfo.class));
+        }
+        else if (id == R.id.disclamer) {
+
+            Disclamer msgfragment = new Disclamer();
+            FragmentManager msgmanger = getSupportFragmentManager();
+            msgmanger
+                    .beginTransaction()
+                    .setCustomAnimations(R.anim.push_left_in, R.anim.push_left_in)
+                    .replace(R.id.relativelayout1,
+                            msgfragment,
+                            msgfragment.getTag()).commit();
+            }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
