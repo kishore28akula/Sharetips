@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SharePageDetails" />
-        <activity android:name=".LoginPageInfo"></activity>
+        <activity android:name=".LoginPageInfo" />
+        <activity android:name=".Register"></activity>
     </application>
 
 </manifest>
