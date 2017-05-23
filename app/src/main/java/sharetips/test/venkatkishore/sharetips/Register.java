@@ -35,7 +35,6 @@ public class Register extends AppCompatActivity {
         // Get the application context
         mContext = getApplicationContext();
 
-        // Get the activity
         mActivity = Register.this;
 
         // Get the widgets reference from XML layout
